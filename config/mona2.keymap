@@ -77,7 +77,7 @@
         default_layer {
             bindings = <
 &kp Q         &kp W         &kp E               &kp R             &kp T                                                   &kp Y        &kp U        &kp I     &kp O      &kp P
-&kp A         &kp S         &kp D               &mt LCTRL F       &kp G                                  &kp F13          &kp H        &mt RCTRL J  &kp K     &kp L      &lt 3 MINUS
+&kp A         &kp S         &kp D               &mt LCTRL F       &kp G                                  &kp F2           &kp H        &mt RCTRL J  &kp K     &kp L      &lt 3 MINUS
 &kp Z         &kp X         &kp C               &kp V             &kp B        &kp ESCAPE                &kp DEL          &kp N        &kp M        &mkp MB1  &kp COMMA  &kp DOT
 &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT TAB  &lt 1 LANGUAGE_1  &lt 2 SPACE  &lt_to_layer_0 3 LANG2    &lt 1 BACKSPACE  &lt 2 ENTER                                    &kp QUESTION
             >;
@@ -88,7 +88,7 @@
         layer_1 {
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                         &trans            &trans            &trans            &trans            &trans
-&trans            &trans            &trans            &trans            &trans                      &kp AT_SIGN  &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
+&trans            &trans            &trans            &trans            &trans                      &kp AT_SIGN  &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RS(ENTER)
 &trans            &trans            &trans            &trans            &trans            &trans    &kp COLON    &kp RG(N5)        &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
 &trans            &trans            &trans            &trans            &trans            &trans    &trans       &trans                                                                  &kp RG(NUMBER_9)
             >;
@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
-&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
-&kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &kp F12  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10
-&trans           &trans       &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                     &trans    &trans    &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
+&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans  &mkp MB3  &mkp MB1  &mkp MB2      &kp EQUAL  &kp PLUS
+&kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &trans  &trans    &kp F7    &kp F8        &kp F9     &kp F10
+&trans           &trans       &trans             &trans      &trans       &trans     &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
