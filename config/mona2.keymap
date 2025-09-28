@@ -109,7 +109,7 @@
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                  &trans                &kp HOME               &kp UP_ARROW      &kp END            &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                  &trans                &trans                 &trans            &trans             &trans
 &kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS      &kp EQUAL     &kp UNDERSCORE    &trans  &trans                &trans                 &kp RCTRL         &trans             &trans
 &kp PERCENT   &kp HASH      &trans        &kp COMMA     &kp PERIOD    &trans            &trans  &mkp MB2                                                                          &trans
