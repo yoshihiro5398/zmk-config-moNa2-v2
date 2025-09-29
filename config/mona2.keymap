@@ -93,7 +93,7 @@
 &trans            &trans            &trans            &trans            &trans            &trans    &trans       &trans                                                                  &kp RG(NUMBER_9)
             >;
 
-            sensor-bindings = <&scroll_right_left>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
         };
 
         layer_2 {
@@ -104,7 +104,7 @@
 &trans  &trans         &trans     &trans              &trans               &trans    &trans           &trans                                                             &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
         };
 
         layer_3 {
@@ -115,7 +115,7 @@
 &kp PERCENT   &kp HASH      &trans        &kp COMMA     &kp PERIOD    &trans            &trans  &mkp MB2                                                                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_4 {
