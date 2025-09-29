@@ -114,7 +114,7 @@
             bindings = <
 &trans      &trans         &trans     &kp LG(UP_ARROW)    &trans                                          &trans    &trans          &kp UP_ARROW        &trans               &trans
 &trans      &kp LG(LS(S))  &kp LG(D)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp QUESTION     &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&alt_i_b_n  &trans         &trans     &trans              &trans               &trans    &kp EXCLAMATION  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&alt_i_b_n  &alt_n_s_h_n   &trans     &trans              &trans               &trans    &kp EXCLAMATION  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
 &trans      &trans         &trans     &trans              &trans               &trans    &trans           &trans                                                             &trans
             >;
 
