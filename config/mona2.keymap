@@ -50,7 +50,7 @@
             label = "NEW_MACRO";
         };
 
-        new_macro: new_macro {
+        alt_n_s_h_n: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp N &kp S &kp H &kp N>;
