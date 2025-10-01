@@ -53,7 +53,7 @@
         alt_n_s_h_n: new_macro_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp N &kp S &kp H &kp N>;
+            bindings = <&kp LEFT_ALT &kp N &kp S &kp H &kp N &kp ENTER>;
             label = "NEW_MACRO_2";
         };
     };
