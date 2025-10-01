@@ -43,18 +43,39 @@
             label = "TO_LAYER_0";
         };
 
-        alt_i_b_n: new_macro_1 {
+        new_macro_1: new_macro_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp I &kp B &kp N &kp ENTER>;
             label = "NEW_MACRO_1";
         };
 
-        alt_n_s_h_n: new_macro_2 {
+        new_macro_2: new_macro_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp N &kp S &kp H &kp N &kp ENTER>;
             label = "NEW_MACRO_2";
+        };
+
+        new_macro_3: new_macro_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp P &kp S &kp Z &kp H>;
+            label = "NEW_MACRO_3";
+        };
+
+        new_macro_4: new_macro_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp P &kp O>;
+            label = "NEW_MACRO_4";
+        };
+
+        new_macro_5: new_macro_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp S &kp P>;
+            label = "NEW_MACRO_5";
         };
     };
 
@@ -112,10 +133,10 @@
 
         layer_2 {
             bindings = <
-&trans      &trans         &trans     &kp LG(UP_ARROW)    &trans                                          &trans    &trans          &kp UP_ARROW        &trans               &trans
-&trans      &kp LG(LS(S))  &kp LG(D)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp QUESTION     &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&alt_i_b_n  &alt_n_s_h_n   &trans     &trans              &trans               &trans    &kp EXCLAMATION  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
-&trans      &trans         &trans     &trans              &trans               &trans    &trans           &trans                                                             &trans
+&trans        &trans         &trans        &kp LG(UP_ARROW)    &trans                                          &trans    &trans          &kp UP_ARROW        &trans               &trans
+&trans        &kp LG(LS(S))  &kp LG(D)     &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp QUESTION     &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
+&new_macro_1  &new_macro_2   &new_macro_3  &new_macro_4        &new_macro_5         &trans    &kp EXCLAMATION  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans        &trans         &trans        &trans              &trans               &trans    &trans           &trans                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
