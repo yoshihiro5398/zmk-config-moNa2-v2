@@ -46,15 +46,15 @@
         alt_i_b_n: new_macro_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp I &kp B &kp N>;
-            label = "NEW_MACRO";
+            bindings = <&kp LEFT_ALT &kp I &kp B &kp N &kp ENTER>;
+            label = "NEW_MACRO_1";
         };
 
         alt_n_s_h_n: new_macro_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp N &kp S &kp H &kp N>;
-            label = "NEW_MACRO";
+            label = "NEW_MACRO_2";
         };
     };
 
