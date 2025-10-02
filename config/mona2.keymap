@@ -102,6 +102,13 @@
             bindings = <&kp LEFT_ALT &kp S &kp P>;
             label = "NEW_MACRO_5";
         };
+
+        new_macro_6: new_macro_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp H &kp K &kp NUMBER_1>;
+            label = "NEW_MACRO_6";
+        };
     };
 
     behaviors {
@@ -149,7 +156,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &kp RS(SEMICOLON)  &trans            &trans            &trans            &trans
 &new_macro_1      &new_macro_2      &new_macro_3      &new_macro_4      &new_macro_5                &kp LEFT_BRACKET  &kp RG(NUMBER_1)   &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
-&trans            &trans            &trans            &trans            &trans            &trans    &kp APOS          &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
+&new_macro_6      &trans            &trans            &trans            &trans            &trans    &kp APOS          &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
 &trans            &trans            &trans            &trans            &trans            &trans    &trans            &trans                                                                   &kp RG(NUMBER_9)
             >;
 
