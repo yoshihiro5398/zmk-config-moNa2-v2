@@ -109,6 +109,20 @@
             bindings = <&kp LEFT_ALT &kp H &kp K &kp NUMBER_1>;
             label = "NEW_MACRO_6";
         };
+
+        new_macro_90: new_macro_90 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_WIN &kp TAB>;
+            label = "NEW_MACRO_90";
+        };
+
+        new_macro_91: new_macro_91 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp TAB>;
+            label = "NEW_MACRO_91";
+        };
     };
 
     behaviors {
@@ -167,7 +181,7 @@
             bindings = <
 &trans  &trans         &trans     &kp LG(UP_ARROW)    &trans                                           &trans    &trans          &kp UP_ARROW        &trans               &trans
 &trans  &kp LG(LS(S))  &kp LG(D)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LS(SLASH)     &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&trans  &trans         &trans     &trans              &trans               &trans    &kp LS(NUMBER_1)  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans  &trans         &trans     &new_macro_91       &new_macro_90        &trans    &kp LS(NUMBER_1)  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
 &trans  &trans         &trans     &trans              &trans               &trans    &trans            &trans                                                             &trans
             >;
 
