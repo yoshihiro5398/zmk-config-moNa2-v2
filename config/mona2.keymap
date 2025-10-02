@@ -53,6 +53,11 @@
             bindings = <&kp DEL>;
             key-positions = <26 25>;
         };
+
+        c+s {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <25 24>;
+        };
     };
 
     macros {
