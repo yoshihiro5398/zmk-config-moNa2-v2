@@ -48,6 +48,11 @@
             bindings = <&kp RA(F4)>;
             key-positions = <8 9>;
         };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <26 25>;
+        };
     };
 
     macros {
