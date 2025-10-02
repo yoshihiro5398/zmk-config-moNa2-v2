@@ -38,6 +38,21 @@
             bindings = <&kt F2>;
             key-positions = <31 32>;
         };
+
+        acc {
+            bindings = <&kp LA(LC(C))>;
+            key-positions = <22 23>;
+        };
+
+        acv {
+            bindings = <&kp LA(LC(V))>;
+            key-positions = <23 24>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
