@@ -24,16 +24,6 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
         f2 {
             bindings = <&kt F2>;
             key-positions = <31 32>;
@@ -52,6 +42,11 @@
         f4 {
             bindings = <&kp F4>;
             key-positions = <19 20>;
+        };
+
+        af4 {
+            bindings = <&kp RA(F4)>;
+            key-positions = <8 9>;
         };
     };
 
