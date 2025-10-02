@@ -148,10 +148,10 @@
 
         layer_2 {
             bindings = <
-&trans        &trans         &trans        &kp LG(UP_ARROW)    &trans                                          &trans    &trans          &kp UP_ARROW        &trans               &trans
-&trans        &kp LG(LS(S))  &kp LG(D)     &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp QUESTION     &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&new_macro_1  &new_macro_2   &new_macro_3  &new_macro_4        &new_macro_5         &trans    &kp EXCLAMATION  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
-&trans        &trans         &trans        &trans              &trans               &trans    &trans           &trans                                                             &trans
+&trans        &trans         &trans        &kp LG(UP_ARROW)    &trans                                           &trans    &trans          &kp UP_ARROW        &trans               &trans
+&trans        &kp LG(LS(S))  &kp LG(D)     &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LS(SLASH)     &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
+&new_macro_1  &new_macro_2   &new_macro_3  &new_macro_4        &new_macro_5         &trans    &kp LS(NUMBER_1)  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans        &trans         &trans        &trans              &trans               &trans    &trans            &trans                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
@@ -159,10 +159,10 @@
 
         layer_3 {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                  &trans                &trans                 &trans            &trans             &trans
-&kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS      &kp EQUAL     &kp UNDERSCORE    &trans  &trans                &trans                 &kp RCTRL         &trans             &trans
-&kp PERCENT   &kp HASH      &trans        &kp COMMA     &kp PERIOD    &trans            &trans  &mkp MB2                                                                          &trans
+&kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5                                 &trans                &trans                 &trans            &trans             &trans
+&kp NUMBER_6  &kp N7            &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                   &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp SLASH     &kp LS(N8)        &kp MINUS     &kp CARET     &kp EQUAL     &kp LS(MINUS)    &trans  &trans                &trans                 &kp RCTRL         &trans             &trans
+&kp LS(N5)    &kp LS(NUMBER_3)  &trans        &kp COMMA     &kp PERIOD    &trans           &trans  &mkp MB2                                                                          &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
