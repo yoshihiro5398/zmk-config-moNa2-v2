@@ -137,10 +137,10 @@
 
         layer_1 {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                          &kp RS(SEMICOLON)  &trans            &trans            &trans            &trans
-&trans            &trans            &trans            &trans            &trans                      &kp LS(F2)    &kp RG(NUMBER_1)   &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
-&trans            &trans            &trans            &trans            &trans            &trans    &kp LS(SEMI)  &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
-&trans            &trans            &trans            &trans            &trans            &trans    &trans        &trans                                                                   &kp RG(NUMBER_9)
+&kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &kp RS(SEMICOLON)  &trans            &trans            &trans            &trans
+&trans            &trans            &trans            &trans            &trans                      &kp LEFT_BRACKET  &kp RG(NUMBER_1)   &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
+&trans            &trans            &trans            &trans            &trans            &trans    &kp APOS          &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
+&trans            &trans            &trans            &trans            &trans            &trans    &trans            &trans                                                                   &kp RG(NUMBER_9)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
