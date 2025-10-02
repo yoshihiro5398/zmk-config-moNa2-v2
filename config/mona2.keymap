@@ -31,12 +31,12 @@
 
         acc {
             bindings = <&kp LA(LC(C))>;
-            key-positions = <22 23>;
+            key-positions = <11 12>;
         };
 
         acv {
             bindings = <&kp LA(LC(V))>;
-            key-positions = <23 24>;
+            key-positions = <12 13>;
         };
 
         f4 {
