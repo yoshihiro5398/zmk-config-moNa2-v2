@@ -115,6 +115,8 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_WIN &kp TAB>;
             label = "NEW_MACRO_90";
+            wait-ms = <50>;
+            tap-ms = <100>;
         };
 
         new_macro_91: new_macro_91 {
@@ -122,6 +124,8 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp TAB>;
             label = "NEW_MACRO_91";
+            wait-ms = <50>;
+            tap-ms = <100>;
         };
     };
 
