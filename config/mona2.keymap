@@ -165,7 +165,7 @@
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &kp RS(SEMICOLON)  &trans            &trans            &trans            &trans
 &new_macro_1      &new_macro_2      &new_macro_3      &new_macro_4      &new_macro_5                &kp LEFT_BRACKET  &kp RG(NUMBER_1)   &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
 &new_macro_6      &trans            &kp LA(LC(C))     &kp LA(LC(V))     &trans            &trans    &kp APOS          &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
-&trans            &trans            &trans            &trans            &trans            &trans    &trans            &trans                                                                   &kp RG(NUMBER_9)
+&trans            &trans            &trans            &none             &trans            &trans    &none             &trans                                                                   &kp RG(NUMBER_9)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -175,8 +175,8 @@
             bindings = <
 &trans  &trans         &trans     &kp LG(UP_ARROW)    &trans                                           &trans    &trans          &kp UP_ARROW        &trans               &trans
 &trans  &kp LG(LS(S))  &kp LG(D)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LS(SLASH)     &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&trans  &trans         &trans     &kp LA(TAB)         &kp LG(TAB)          &trans    &kp LS(NUMBER_1)  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
-&trans  &trans         &trans     &trans              &trans               &trans    &trans            &trans                                                             &trans
+&trans  &trans         &trans     &trans              &trans               &trans    &kp LS(NUMBER_1)  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans  &trans         &trans     &trans              &none                &trans    &trans            &none                                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
@@ -185,9 +185,9 @@
         layer_3 {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5                                   &trans      &trans      &trans             &trans         &trans
-&kp NUMBER_6  &kp N7            &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                     &trans  &kp LS(N8)  &kp LS(N9)  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp NUMBER_6  &kp N7            &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                     &trans  &kp LS(N8)  &kp LS(N9)  &kp RIGHT_BRACKET  &kp BACKSLASH  &none
 &kp SLASH     &kp ASTRK         &kp MINUS     &kp LS(SEMI)  &kp LS(MINUS)  &kp UNDERSCORE    &trans  &trans      &trans      &kp RCTRL          &trans         &trans
-&kp LS(N5)    &kp LS(NUMBER_3)  &trans        &kp COMMA     &kp PERIOD     &trans            &trans  &mkp MB2                                                  &trans
+&kp LS(N5)    &kp LS(NUMBER_3)  &trans        &kp COMMA     &kp PERIOD     &none             &trans  &mkp MB2                                                  &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
