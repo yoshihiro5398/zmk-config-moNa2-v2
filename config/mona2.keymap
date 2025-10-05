@@ -30,7 +30,7 @@
         };
 
         f4 {
-            bindings = <&kp F4>;
+            bindings = <&kp RC(W)>;
             key-positions = <19 20>;
         };
 
