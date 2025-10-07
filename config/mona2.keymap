@@ -48,6 +48,16 @@
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <25 24>;
         };
+
+        wind {
+            bindings = <&kp LG(D)>;
+            key-positions = <12 13>;
+        };
+
+        winss {
+            bindings = <&kp LS(LG(S))>;
+            key-positions = <11 12>;
+        };
     };
 
     macros {
