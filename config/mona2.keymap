@@ -138,11 +138,18 @@
             tap-ms = <100>;
         };
 
-        new_macro_7: new_macro_6 {
+        new_macro_7: new_macro_7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mkp MB2 &kp R &kp R>;
-            label = "NEW_MACRO_6";
+            label = "NEW_MACRO_7";
+        };
+
+        new_macro_8: new_macro_8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB2 &kp K &kp K>;
+            label = "NEW_MACRO_8";
         };
     };
 
@@ -191,7 +198,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &kp RS(SEMICOLON)  &trans            &trans            &trans            &trans
 &new_macro_1      &new_macro_2      &new_macro_3      &new_macro_4      &new_macro_5                &kp LS(SLASH)     &kp RG(NUMBER_1)   &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
-&new_macro_7      &new_macro_7      &kp LA(LC(C))     &kp LA(LC(V))     &trans            &trans    &kp LS(NUMBER_1)  &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
+&new_macro_8      &new_macro_7      &kp LA(LC(C))     &kp LA(LC(V))     &new_macro_6      &trans    &kp LS(NUMBER_1)  &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
 &trans            &trans            &trans            &none             &trans            &trans    &none             &trans                                                                   &kp RG(NUMBER_9)
             >;
 
