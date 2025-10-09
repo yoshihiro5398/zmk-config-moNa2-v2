@@ -58,6 +58,16 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <11 10>;
         };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <3 4>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
