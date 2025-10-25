@@ -56,7 +56,7 @@
 
         winss {
             bindings = <&kp LS(LG(S))>;
-            key-positions = <11 10>;
+            key-positions = <33 34>;
         };
 
         f5 {
