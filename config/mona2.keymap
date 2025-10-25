@@ -136,15 +136,8 @@
         new_macro_7: new_macro_7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&mkp MB2 &kp R &kp R>;
+            bindings = <&mkp MB2 &kp I &kp C>;
             label = "NEW_MACRO_7";
-        };
-
-        new_macro_8: new_macro_8 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&mkp MB2 &kp K &kp K>;
-            label = "NEW_MACRO_8";
         };
     };
 
