@@ -24,11 +24,6 @@
     combos {
         compatible = "zmk,combos";
 
-        f2 {
-            bindings = <&kt F2>;
-            key-positions = <0 1>;
-        };
-
         f4 {
             bindings = <&kp RC(W)>;
             key-positions = <19 20>;
@@ -60,8 +55,8 @@
         };
 
         f5 {
-            bindings = <&kp F5>;
-            key-positions = <3 4>;
+            bindings = <&kp F4>;
+            key-positions = <31 32>;
         };
     };
 
