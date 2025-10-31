@@ -195,10 +195,10 @@
 
         layer_2 {
             bindings = <
-&kp F2  &kp F4  &trans         &kp LG(UP_ARROW)    &trans                                           &trans        &trans          &kp UP_ARROW        &trans               &trans
-&kp F5  &kp F7  &trans         &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LEFT_BRACKET  &kp HOME      &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&trans  &trans  &kp LA(LC(C))  &kp LA(LC(V))       &kp TAB              &trans    &kp APOS          &new_macro_7  &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
-&trans  &trans  &trans         &trans              &none                &trans    &trans            &none                                                                  &trans
+&kp F2  &kp F4  &trans  &kp LG(UP_ARROW)    &trans                                           &trans        &trans          &kp UP_ARROW        &kp RS(RC(TAB))      &kp RC(TAB)
+&kp F5  &kp F7  &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp LEFT_BRACKET  &kp HOME      &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
+&trans  &trans  &trans  &trans              &kp TAB              &trans    &kp APOS          &new_macro_7  &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans  &trans  &trans  &trans              &none                &trans    &trans            &none                                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
