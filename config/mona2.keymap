@@ -34,11 +34,6 @@
             key-positions = <8 9>;
         };
 
-        del {
-            bindings = <&kp DEL>;
-            key-positions = <26 25>;
-        };
-
         c+s {
             bindings = <&kp LC(LEFT_SHIFT)>;
             key-positions = <24 25>;
@@ -187,7 +182,7 @@
             bindings = <
 &kp F2  &kp F4  &kp LS(LG(S))  &kp LG(UP_ARROW)    &kp LC(T)                              &kp LEFT_BRACKET  &kp APOS        &kp UP_ARROW        &kp RS(RC(TAB))      &kp RC(TAB)
 &kp F5  &kp F7  &kp LG(D)      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &trans  &kp HOME          &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&trans  &trans  &trans         &trans              &kp TAB              &trans    &trans  &new_macro_7      &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans  &trans  &trans         &trans              &kp DELETE           &trans    &trans  &new_macro_7      &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
 &trans  &trans  &trans         &trans              &none                &trans    &trans  &none                                                                      &trans
             >;
 
