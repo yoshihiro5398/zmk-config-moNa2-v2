@@ -39,14 +39,9 @@
             key-positions = <24 25>;
         };
 
-        f4 {
-            bindings = <&kp F4>;
-            key-positions = <31 32>;
-        };
-
-        address {
-            bindings = <&kp LA(D)>;
-            key-positions = <36 37>;
+        ctrlt {
+            bindings = <&kp RC(T)>;
+            key-positions = <7 8>;
         };
     };
 
