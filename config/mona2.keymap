@@ -166,7 +166,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &kp RS(SEMICOLON)  &trans            &trans            &trans            &trans
 &new_macro_1      &new_macro_2      &new_macro_3      &new_macro_4      &new_macro_5                &kp LS(SLASH)     &kp RG(NUMBER_1)   &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
-&trans            &trans            &kp LA(LC(C))     &kp LA(LC(V))     &new_macro_6      &trans    &kp LS(NUMBER_1)  &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
+&trans            &trans            &trans            &trans            &new_macro_6      &trans    &kp LS(NUMBER_1)  &kp RG(N5)         &kp RG(NUMBER_6)  &kp RG(N7)        &kp RG(NUMBER_8)  &trans
 &trans            &trans            &trans            &none             &trans            &trans    &none             &trans                                                                   &kp RG(NUMBER_9)
             >;
 
@@ -177,7 +177,7 @@
             bindings = <
 &kp F2  &kp F4  &kp LS(LG(S))  &kp LG(UP_ARROW)    &kp LC(T)                              &kp LEFT_BRACKET  &kp APOS        &kp UP_ARROW        &kp RS(RC(TAB))      &kp RC(TAB)
 &kp F5  &kp F7  &kp LG(D)      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &trans  &kp HOME          &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
-&trans  &trans  &trans         &trans              &kp DELETE           &trans    &trans  &new_macro_7      &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans  &trans  &kp LA(LC(C))  &kp LA(LC(V))       &kp DELETE           &trans    &trans  &new_macro_7      &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
 &trans  &trans  &trans         &trans              &none                &trans    &trans  &none                                                                      &trans
             >;
 
