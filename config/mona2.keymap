@@ -125,7 +125,7 @@
 &kp LS(NUMBER_5)  &kp LS(NUMBER_3)      &trans        &kp COMMA          &kp PERIOD     &trans            &trans  &none                                                                 &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_4 {
