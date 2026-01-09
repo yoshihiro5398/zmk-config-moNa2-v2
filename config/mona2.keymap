@@ -24,14 +24,19 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
+        altf4 {
+            bindings = <&kp RA(F4)>;
+            key-positions = <8 9>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        ctrlw {
+            bindings = <&kp RC(W)>;
+            key-positions = <19 20>;
+        };
+
+        ctrlt {
+            bindings = <&kp RC(T)>;
+            key-positions = <7 8>;
         };
     };
 
@@ -78,7 +83,7 @@
             bindings = <
 &mt Q ESCAPE  &kp W         &kp E               &mt F2 R          &mt F4 T                                                     &kp Y        &kp U        &kp I     &kp O              &kp P
 &kp A         &kp S         &mt LEFT_BRACKET D  &mt AT_SIGN F     &kp G                                       &kp SLASH        &kp H        &mt RCTRL J  &kp K     &mt RIGHT_SHIFT L  &lt 3 MINUS
-&kp Z         &kp X         &mt LC(C) C         &mt LC(V) V       &mt LCTRL B  &kp LA(TAB)                    &tog 3           &kp N        &kp M        &mkp MB1  &kp COMMA          &kp PERIOD
+&kp Z         &kp X         &mt LC(C) C         &mt LC(V) V       &mt LCTRL B  &mt LC(LEFT_SHIFT) LA(TAB)     &tog 3           &kp N        &kp M        &mkp MB1  &kp COMMA          &kp PERIOD
 &kp LWIN      &kp LEFT_ALT  &mt LG(TAB) TAB     &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1    &lt 1 BACKSPACE  &lt 2 ENTER                                            &kp DEL
             >;
 
@@ -131,10 +136,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
