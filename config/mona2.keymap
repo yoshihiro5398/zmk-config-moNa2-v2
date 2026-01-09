@@ -109,10 +109,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp LC(LS(TAB))     &kp PRINTSCREEN         &kp LC(TAB)              &trans                                     &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
-&trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
-&trans  &trans              &trans                  &trans                   &trans                   &trans    &trans  &trans                                                   &trans
+&kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4       &kp NUMBER_5                                &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans
+&kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0                        &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp SLASH         &kp RS(COLON)     &kp MINUS     &kp LS(SEMICOLON)  &kp LS(MINUS)  &kp LS(BACKSLASH)    &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans
+&kp LS(NUMBER_5)  &kp LS(NUMBER_3)  &trans        &kp COMMA          &kp PERIOD     &trans               &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
