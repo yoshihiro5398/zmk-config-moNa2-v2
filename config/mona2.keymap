@@ -122,7 +122,7 @@
 &kp NUMBER_1      &kp NUMBER_2          &kp NUMBER_3  &kp NUMBER_4       &kp NUMBER_5                             &trans            &trans            &trans             &trans         &trans
 &kp NUMBER_6      &kp NUMBER_7          &kp NUMBER_8  &kp NUMBER_9       &kp NUMBER_0                     &trans  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RIGHT_BRACKET  &kp BACKSLASH  &none
 &kp SLASH         &kp LS(SINGLE_QUOTE)  &kp MINUS     &kp LS(SEMICOLON)  &kp LS(MINUS)  &kp LS(INT_RO)    &trans  &trans            &trans            &trans             &trans         &trans
-&kp LS(NUMBER_5)  &kp LS(NUMBER_3)      &trans        &kp COMMA          &kp PERIOD     &trans            &trans  &none                                                                 &trans
+&kp LS(NUMBER_5)  &kp LS(NUMBER_3)      &trans        &kp COMMA          &kp PERIOD     &kp ESCAPE        &trans  &none                                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
