@@ -76,9 +76,9 @@
 
         default_layer {
             bindings = <
-&mt Q ESCAPE  &kp W         &kp E               &kp R             &mt F4 T                                                     &kp Y        &kp U        &kp I     &kp O              &kp P
+&mt Q ESCAPE  &kp W         &kp E               &mt F2 R          &mt F4 T                                                     &kp Y        &kp U        &kp I     &kp O              &kp P
 &kp A         &kp S         &mt LEFT_BRACKET D  &mt AT_SIGN F     &kp G                                       &kp SLASH        &kp H        &mt RCTRL J  &kp K     &mt RIGHT_SHIFT L  &lt 3 MINUS
-&kp Z         &kp X         &kp C               &kp V             &mt LCTRL B  &kp LA(TAB)                    &tog 3           &kp N        &kp M        &mkp MB1  &kp COMMA          &kp PERIOD
+&kp Z         &kp X         &mt LC(C) C         &mt LC(V) V       &mt LCTRL B  &kp LA(TAB)                    &tog 3           &kp N        &kp M        &mkp MB1  &kp COMMA          &kp PERIOD
 &kp LWIN      &kp LEFT_ALT  &mt LG(TAB) TAB     &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1    &lt 1 BACKSPACE  &lt 2 ENTER                                            &kp DEL
             >;
 
@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
-&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans                  &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
-&kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &kp F12  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10
-&trans           &trans       &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
+&trans  &trans  &kp RS(LG(S))  &kp LG(UP_ARROW)    &trans                                 &trans    &trans          &kp UP_ARROW        &kp RS(RC(TAB))      &kp RC(TAB)
+&trans  &trans  &kp LG(D)      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &trans  &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW     &kp END              &kp RS(ENTER)
+&trans  &trans  &kp LA(LC(C))  &kp LA(LC(V))       &kp DEL              &trans    &trans  &trans    &kp DOWN_ARROW  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans
+&trans  &trans  &trans         &trans              &none                &trans    &trans  &none                                                              &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
