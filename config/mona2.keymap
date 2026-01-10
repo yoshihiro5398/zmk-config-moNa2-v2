@@ -40,12 +40,12 @@
         };
 
         lay5 {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <31 32>;
         };
 
         lay4 {
-            bindings = <&tog 4>;
+            bindings = <&tog 5>;
             key-positions = <39 40>;
         };
     };
@@ -176,8 +176,8 @@
         default_layer {
             bindings = <
 &mt Q ESCAPE  &kp W         &kp E            &mt F2 R            &mt F4 T                                                    &kp Y        &kp U        &kp I     &kp O              &kp P
-&kp A         &kp S         &mt SQT D        &mt LEFT_BRACKET F  &kp G                                      &kp SLASH        &kp H        &mt RCTRL J  &kp K     &mt RIGHT_SHIFT L  &lt 3 MINUS
-&kp Z         &kp X         &mt LC(C) C      &mt LC(V) V         &mt LCTRL B  &mt LC(LEFT_SHIFT) LA(TAB)    &tog 3           &kp N        &kp M        &mkp MB1  &kp COMMA          &kp PERIOD
+&kp A         &kp S         &mt SQT D        &mt LEFT_BRACKET F  &kp G                                      &kp SLASH        &kp H        &mt RCTRL J  &kp K     &mt RIGHT_SHIFT L  &lt 4 MINUS
+&kp Z         &kp X         &mt LC(C) C      &mt LC(V) V         &mt LCTRL B  &mt LC(LEFT_SHIFT) LA(TAB)    &tog 4           &kp N        &kp M        &mkp MB1  &kp COMMA          &kp PERIOD
 &kp LWIN      &kp LEFT_ALT  &mt LG(TAB) TAB  &lt 1 LANGUAGE_2    &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_1     &lt 1 BACKSPACE  &lt 2 ENTER                                            &kp DEL
             >;
 
@@ -201,6 +201,17 @@
 &trans  &trans  &kp LG(D)      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &trans  &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp END             &kp RS(ENTER)
 &trans  &trans  &trans         &trans              &kp DEL              &trans    &trans  &trans    &kp DOWN_ARROW  &mkp MB2         &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)
 &trans  &trans  &trans         &trans              &none                &trans    &trans  &none                                                          &trans
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -234,17 +245,6 @@
 &trans      &trans               &trans               &trans               &trans                     &trans         &trans    &trans  &trans  &kp F8  &kp F3
 &cad1       &mt LC(LS(X)) LC(X)  &mt LC(LS(C)) LC(C)  &mt LC(LS(V)) LC(V)  &kp BACKSPACE  &kp DEL     &trans         &trans    &trans  &trans  &trans  &trans
 &trans      &trans               &trans               &mkp MB1             &kp SPACE      &mkp MB3    &kp BACKSPACE  &mkp MB2                          &trans
-            >;
-
-            sensor-bindings = <&scroll_up_down>;
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
