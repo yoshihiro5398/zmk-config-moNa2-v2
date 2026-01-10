@@ -138,7 +138,7 @@
         cad1: new_macro_12 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_0 &kp COMMA &kp N0>;
+            bindings = <&kp NUMBER_0 &kp COMMA &kp N0 &kp ENTER>;
             label = "NEW_MACRO_12";
         };
     };
@@ -230,10 +230,10 @@
 
         layer_5 {
             bindings = <
-&kp ESCAPE  &trans               &trans               &trans               &trans                        &trans  &trans  &trans  &trans  &trans
-&trans      &trans               &trans               &trans               &trans                &trans  &trans  &trans  &trans  &kp F8  &kp F3
-&cad1       &mt LC(LS(X)) LC(X)  &mt LC(LS(C)) LC(C)  &mt LC(LS(V)) LC(V)  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans               &trans               &mkp MB1             &mkp MB3  &mkp MB2    &trans  &trans                          &trans
+&kp ESCAPE  &trans               &trans               &trans               &trans                             &trans  &trans  &trans  &trans  &trans
+&trans      &trans               &trans               &trans               &trans                     &trans  &trans  &trans  &trans  &kp F8  &kp F3
+&cad1       &mt LC(LS(X)) LC(X)  &mt LC(LS(C)) LC(C)  &mt LC(LS(V)) LC(V)  &kp BACKSPACE  &kp DEL     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans               &trans               &mkp MB1             &mkp MB3       &mkp MB2    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
