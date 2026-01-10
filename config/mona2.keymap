@@ -94,6 +94,34 @@
             bindings = <&kp LEFT_ALT &kp H &kp K &kp NUMBER_1 &kp ENTER>;
             label = "NEW_MACRO_6";
         };
+
+        docu2: new_macro_7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp T &kp C &kp A>;
+            label = "NEW_MACRO_7";
+        };
+
+        docu3: new_macro_8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp T &kp C &kp C>;
+            label = "NEW_MACRO_8";
+        };
+
+        docu4: new_macro_9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp T &kp C &kp F>;
+            label = "NEW_MACRO_9";
+        };
+
+        docu5: new_macro_10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp T &kp C &kp H>;
+            label = "NEW_MACRO_10";
+        };
     };
 
     behaviors {
@@ -141,7 +169,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &trans            &trans            &trans            &trans            &trans
 &word1            &word3            &word4            &word5            &word2                      &kp RS(SLASH)     &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
-&trans            &trans            &trans            &trans            &docu1            &trans    &kp RS(NUMBER_1)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &trans
+&docu2            &docu3            &docu4            &docu5            &docu1            &trans    &kp RS(NUMBER_1)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &trans
 &trans            &trans            &trans            &trans            &trans            &trans    &trans            &trans                                                                  &kp RG(NUMBER_9)
             >;
 
