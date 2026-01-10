@@ -75,25 +75,25 @@
         word3: new_macro_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp P &kp S &kp Z &kp H &kp ENTER>;
+            bindings = <&kp LEFT_ALT &kp P &kp S &kp Z &kp H>;
             label = "NEW_MACRO_3";
         };
 
         word4: new_macro_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp P &kp O &kp ENTER>;
+            bindings = <&kp LEFT_ALT &kp P &kp O>;
             label = "NEW_MACRO_4";
         };
 
         word5: new_macro_5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp S &kp P &kp ENTER>;
+            bindings = <&kp LEFT_ALT &kp S &kp P>;
             label = "NEW_MACRO_5";
         };
 
-        docu1: new_macro_6 {
+        word6: new_macro_6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp H &kp K &kp NUMBER_1 &kp ENTER>;
@@ -126,6 +126,20 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT &kp T &kp C &kp H>;
             label = "NEW_MACRO_10";
+        };
+
+        docu1: new_macro_11 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB2 &kp I &kp C>;
+            label = "NEW_MACRO_11";
+        };
+
+        cad1: new_macro_12 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_0 &kp COMMA &kp N0>;
+            label = "NEW_MACRO_12";
         };
     };
 
@@ -174,7 +188,7 @@
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &trans            &trans            &trans            &trans            &trans
 &word1            &word3            &word4            &word5            &word2                      &kp RS(SLASH)     &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
-&docu2            &docu3            &docu4            &docu5            &docu1            &trans    &kp RS(NUMBER_1)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &trans
+&docu2            &docu3            &docu4            &docu5            &docu1            &word6    &kp RS(NUMBER_1)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &trans
 &kp LA(LC(C))     &kp LA(LC(V))     &trans            &trans            &trans            &trans    &trans            &trans                                                                  &kp RG(NUMBER_9)
             >;
 
@@ -214,11 +228,11 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        MOUSE {
+        layer_5 {
             bindings = <
 &kp ESCAPE  &trans               &trans               &trans               &trans                        &trans  &trans  &trans  &trans  &trans
 &trans      &trans               &trans               &trans               &trans                &trans  &trans  &trans  &trans  &kp F8  &kp F3
-&trans      &mt LC(LS(X)) LC(X)  &mt LC(LS(C)) LC(C)  &mt LC(LS(V)) LC(V)  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&cad1       &mt LC(LS(X)) LC(X)  &mt LC(LS(C)) LC(C)  &mt LC(LS(V)) LC(V)  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans               &trans               &mkp MB1             &mkp MB3  &mkp MB2    &trans  &trans                          &trans
             >;
 
