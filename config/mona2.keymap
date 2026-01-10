@@ -66,6 +66,34 @@
             bindings = <&kp LEFT_ALT &kp N &kp S &kp H &kp N &kp ENTER>;
             label = "NEW_MACRO_2";
         };
+
+        word3: new_macro_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp P &kp S &kp Z &kp H &kp ENTER>;
+            label = "NEW_MACRO_3";
+        };
+
+        word4: new_macro_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp P &kp O &kp ENTER>;
+            label = "NEW_MACRO_4";
+        };
+
+        word5: new_macro_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp S &kp P &kp ENTER>;
+            label = "NEW_MACRO_5";
+        };
+
+        docu1: new_macro_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp H &kp K &kp NUMBER_1 &kp ENTER>;
+            label = "NEW_MACRO_6";
+        };
     };
 
     behaviors {
@@ -112,8 +140,8 @@
         layer_1 {
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &trans            &trans            &trans            &trans            &trans
-&word1            &trans            &trans            &trans            &word2                      &kp RS(SLASH)     &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
-&trans            &trans            &trans            &trans            &trans            &trans    &kp RS(NUMBER_1)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &trans
+&word1            &word3            &word4            &word5            &word2                      &kp RS(SLASH)     &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
+&trans            &trans            &trans            &trans            &docu1            &trans    &kp RS(NUMBER_1)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &trans
 &trans            &trans            &trans            &trans            &trans            &trans    &trans            &trans                                                                  &kp RG(NUMBER_9)
             >;
 
