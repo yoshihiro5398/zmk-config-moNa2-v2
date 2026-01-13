@@ -225,7 +225,7 @@
 &kp LS(NUMBER_5)  &kp LS(NUMBER_3)      &trans     &kp COMMA          &kp PERIOD     &kp ESCAPE        &trans  &none                                                                 &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
         };
 
         layer_4 {
