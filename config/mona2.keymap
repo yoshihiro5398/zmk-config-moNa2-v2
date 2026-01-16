@@ -176,8 +176,8 @@
         default_layer {
             bindings = <
 &mt Q ESCAPE  &kp W         &kp E            &mt F2 R            &mt F4 T                                                    &kp Y        &kp U        &kp I     &kp O              &kp P
-&kp A         &kp S         &mt SQT D        &mt LEFT_BRACKET F  &kp G                                      &kp SLASH        &kp H        &mt RCTRL J  &kp K     &mt RIGHT_SHIFT L  &lt 4 MINUS
-&kp Z         &mt LC(X) X   &mt LC(C) C      &mt LC(V) V         &mt LCTRL B  &mt LC(LEFT_SHIFT) LA(TAB)    &tog 4           &kp N        &kp M        &mkp MB1  &kp COMMA          &kp PERIOD
+&kp A         &kp S         &mt SQT D        &mt LEFT_BRACKET F  &kp G                                      &kp SLASH        &kp H        &kp J        &kp K     &mt RIGHT_SHIFT L  &lt 4 MINUS
+&kp Z         &mt LC(X) X   &mt LC(C) C      &mt LC(V) V         &mt LCTRL B  &mt LC(LEFT_SHIFT) LA(TAB)    &tog 4           &kp N        &mt RC(M) M  &mkp MB1  &kp COMMA          &kp PERIOD
 &kp LWIN      &kp LEFT_ALT  &mt LG(TAB) TAB  &lt 1 LANGUAGE_2    &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_1     &lt 1 BACKSPACE  &lt 2 ENTER                                            &kp DEL
             >;
 
@@ -214,7 +214,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&inc_dec_kp 0 0>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_7 {
@@ -225,7 +225,7 @@
 &kp LS(NUMBER_5)  &kp LS(NUMBER_3)      &trans     &kp COMMA          &kp PERIOD     &kp ESCAPE        &trans  &none                                                                 &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_4 {
