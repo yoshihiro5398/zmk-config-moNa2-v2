@@ -221,7 +221,7 @@
             bindings = <
 &kp N1            &kp N2                &kp N3     &kp N4             &kp N5                                   &trans            &trans            &trans             &trans         &to 0
 &kp N6            &kp N7                &kp N8     &kp N9             &kp N0                           &trans  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp RIGHT_BRACKET  &kp BACKSLASH  &none
-&kp SLASH         &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &kp LS(MINUS)  &kp LS(INT_RO)    &trans  &trans            &trans            &msc MOVE_Y(5)     &trans         &trans
+&kp SLASH         &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &kp LS(MINUS)  &kp LS(INT_RO)    &trans  &trans            &trans            &mkp MB3           &trans         &trans
 &kp LS(NUMBER_5)  &kp LS(NUMBER_3)      &trans     &kp COMMA          &kp PERIOD     &kp ESCAPE        &trans  &none                                                                 &trans
             >;
 
