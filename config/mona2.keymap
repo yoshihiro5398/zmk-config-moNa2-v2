@@ -180,10 +180,10 @@
 
         default_layer {
             bindings = <
-&mt Q ESCAPE        &kp W             &kp E                        &kp R               &kp T                                                      &kp Y        &kp U  &kp I     &kp O              &kp P
-&kp A               &kp S             &mt SQT D                    &mt LEFT_BRACKET F  &kp G                                     &kp SLASH        &kp H        &kp J  &kp K     &mt RIGHT_SHIFT L  &lt 4 MINUS
-&kp Z               &kp X             &kp C                        &kp V               &kp B        &mt LCTRL F2                 &mt RCTRL F4     &kp N        &kp M  &mkp MB1  &kp COMMA          &kp PERIOD
-&mt LC(N) LEFT_WIN  &mt LEFT_ALT TAB  &mt LC(LEFT_SHIFT) LS(CAPS)  &lt 1 LANGUAGE_2    &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_1    &lt 1 BACKSPACE  &lt 2 ENTER                                      &mt LG(TAB) RA(TAB)
+&mt Q ESCAPE        &kp W             &kp E                        &kp R               &kp T                                                               &kp Y        &kp U  &kp I     &kp O              &kp P
+&kp A               &kp S             &mt SQT D                    &mt LEFT_BRACKET F  &kp G                                              &kp SLASH        &kp H        &kp J  &kp K     &mt RIGHT_SHIFT L  &lt 4 MINUS
+&kp Z               &kp X             &kp C                        &kp V               &mt LC(LEFT_SHIFT) B  &mt LCTRL F2                 &mt RCTRL F4     &kp N        &kp M  &mkp MB1  &kp COMMA          &kp PERIOD
+&mt LC(N) LEFT_WIN  &mt LEFT_ALT TAB  &mt LC(LEFT_SHIFT) LS(CAPS)  &lt 1 LANGUAGE_2    &lt 2 SPACE           &mt LEFT_SHIFT LANGUAGE_1    &lt 1 BACKSPACE  &lt 2 ENTER                                      &mt LG(TAB) RA(TAB)
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -248,8 +248,8 @@
             bindings = <
 &kp ESCAPE  &trans               &trans               &trans               &trans                                      &trans     &trans    &trans    &trans  &to 0
 &trans      &trans               &trans               &trans               &trans                       &trans         &trans     &trans    &trans    &kp F8  &kp F3
-&cad1       &mt LC(LS(X)) LC(X)  &mt LC(LS(C)) LC(C)  &mt LC(LS(V)) LC(V)  &kp DEL    &trans            &trans         &trans     &mkp MB2  &mkp MB3  &trans  &trans
-&trans      &trans               &kp LCTRL            &mkp MB1             &kp SPACE  &kp LEFT_SHIFT    &kp BACKSPACE  &kp ENTER                              &trans
+&cad1       &mt LC(LS(X)) LC(X)  &mt LC(LS(C)) LC(C)  &mt LC(LS(V)) LC(V)  &kp DEL    &kp LCTRL         &trans         &trans     &mkp MB2  &mkp MB3  &trans  &trans
+&trans      &trans               &trans               &mkp MB1             &kp SPACE  &kp LEFT_SHIFT    &kp BACKSPACE  &kp ENTER                              &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
