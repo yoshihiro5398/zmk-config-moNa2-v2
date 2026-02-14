@@ -194,7 +194,7 @@
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)                              &trans            &trans            &trans            &trans            &trans
 &word1            &word3            &word4            &word5            &word2                      &kp RS(SLASH)     &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RA(ENTER)
 &docu2            &docu3            &docu4            &docu5            &docu1            &word6    &kp RS(NUMBER_1)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)  &kp RG(NUMBER_7)  &kp RG(NUMBER_8)  &trans
-&kp LA(LC(C))     &kp LA(LC(V))     &trans            &trans            &trans            &trans    &trans            &trans                                                                  &kp RG(NUMBER_9)
+&trans            &trans            &trans            &trans            &trans            &trans    &trans            &trans                                                                  &kp RG(NUMBER_9)
             >;
 
             sensor-bindings = <&scroll_right_left>;
