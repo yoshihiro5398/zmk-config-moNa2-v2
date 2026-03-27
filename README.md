@@ -1,6 +1,6 @@
 # zmk-config-moNa2
 
-<img src="keymap-drawer/mona2.svg">
+<img src="keymap-drawer/mona2_01.svg">
 
 # COROPITを使用するへ
 
