@@ -22,7 +22,7 @@ layers:
   - [K]
   - [L]
   - [;]
-  - [Z]
+  - - {t: Z, h: LEFT SHIFT}
   - [X]
   - [C]
   - [V]
@@ -34,15 +34,15 @@ layers:
   - [',']
   - [.]
   - [/]
-  - [LEFT SHIFT]
   - [LCTRL]
-  - [LEFT ALT]
+  - [LEFT WIN]
+  - [F16]
   - [BACKSPACE]
   - - {t: ENTER, h: '2'}
   - - {t: '&to_layer_0 LANG2', h: '3'}
   - - {t: '&to_layer_0 LANG1', h: '3'}
   - - {t: SPACE, h: '1'}
-  - [LEFT WIN]
+  - [LEFT ALT]
   '1':
   - ['1']
   - ['2']
@@ -227,9 +227,9 @@ layers:
   - - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+  - ['&mkp MB3']
+  - ['&mkp MB2']
+  - ['&mkp MB1']
   - - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
@@ -306,5 +306,3 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
-- p: [11, 14]
-  k: '&mkp MB3'
