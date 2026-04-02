@@ -16,7 +16,7 @@ layers:
   - {t: D, h: ''''}
   - {t: F, h: '['}
   - G
-  - F13
+  - {t: ▽, type: trans}
   - H
   - J
   - K
@@ -27,21 +27,21 @@ layers:
   - C
   - V
   - B
-  - F14
-  - F15
+  - DEL
+  - DEL
   - N
   - M
   - ','
   - .
   - /
   - {t: LEFT WIN, h: LCTRL}
-  - LEFT WIN
-  - F16
-  - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: '&to_layer_0 LANG2', h: '1'}
+  - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
+  - {t: '&to_layer_0 BACKSPACE', h: '1'}
+  - {t: ENTER, h: '2'}
   - LEFT ALT
   '1':
   - '1'
@@ -80,11 +80,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - '!'
