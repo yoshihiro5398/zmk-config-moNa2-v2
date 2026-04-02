@@ -135,9 +135,9 @@ layers:
   - '3'
   - '4'
   - '5'
-  - {t: ▽, type: trans}
-  - HOME
-  - UP ARROW
+  - '7'
+  - '8'
+  - '9'
   - END
   - {t: ▽, type: trans}
   - '6'
@@ -145,10 +145,10 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
+  - F2
+  - '4'
+  - '5'
+  - '6'
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -157,10 +157,10 @@ layers:
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DELETE
-  - PAGE UP
+  - Sft+INT1
+  - '1'
+  - '2'
+  - '3'
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,8 +169,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
+  - ENTER
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
