@@ -151,12 +151,12 @@ layers:
   - '6'
   - LEFT ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - Sft+'
+  - '-'
+  - Sft+;
+  - Sft+-
+  - Sft+INTERNATIONAL 1
   - Sft+INT1
   - '1'
   - '2'
@@ -166,8 +166,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - .
   - {type: held}
   - BACKSPACE
   - ENTER
