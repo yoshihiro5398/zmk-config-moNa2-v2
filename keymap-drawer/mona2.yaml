@@ -20,7 +20,7 @@ layers:
   - H
   - J
   - K
-  - {t: L, h: RIGHT SHIFT}
+  - L
   - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
@@ -33,7 +33,7 @@ layers:
   - M
   - '&mkp MB1'
   - ','
-  - .
+  - {t: ., h: RIGHT SHIFT}
   - {t: LEFT WIN, h: LCTRL}
   - LEFT ALT
   - {t: Sft+Gui+S, h: Gui+D}
@@ -119,7 +119,7 @@ layers:
   - DOWN ARROW
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
