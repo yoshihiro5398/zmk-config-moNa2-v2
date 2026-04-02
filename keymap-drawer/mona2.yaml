@@ -49,21 +49,20 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
   - Sft+/
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - {t: ▽, type: trans}
+  - Sft+8
+  - Sft+9
+  - ']'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,12 +70,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Sft+1
+  - AltGr+LEFT ARROW
+  - AltGr+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -92,22 +92,22 @@ layers:
   - '#'
   - $
   - '%'
-  - ^
-  - '&'
-  - '*'
-  - '-'
-  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - Sft+Ctl+TAB
+  - Ctl+TAB
   - '`'
   - '~'
   - '"'
   - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '='
-  - +
+  - HOME
+  - LEFT ARROW
+  - RIGHT ARROW
+  - END
+  - Sft+ENTER
   - F1
   - F2
   - F3
@@ -116,7 +116,7 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DOWN ARROW
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
