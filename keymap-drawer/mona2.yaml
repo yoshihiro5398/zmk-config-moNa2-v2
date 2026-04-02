@@ -36,7 +36,7 @@ layers:
   - .
   - {t: LEFT WIN, h: LCTRL}
   - LEFT ALT
-  - {t: ▽, type: trans}
+  - {t: Sft+Gui+S, h: Gui+D}
   - {t: '&to_layer_0 LANG2', h: '1'}
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANG1', h: '3'}
