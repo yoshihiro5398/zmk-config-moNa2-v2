@@ -33,6 +33,16 @@
             bindings = <&to 3>;
             key-positions = <31 32>;
         };
+
+        altf4 {
+            bindings = <&kp RA(F4)>;
+            key-positions = <8 9>;
+        };
+
+        ctrlw {
+            bindings = <&kp RC(W)>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
