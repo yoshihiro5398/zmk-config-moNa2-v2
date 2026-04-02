@@ -34,7 +34,7 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
+  - {t: LEFT WIN, h: LCTRL}
   - LEFT WIN
   - F16
   - BACKSPACE
