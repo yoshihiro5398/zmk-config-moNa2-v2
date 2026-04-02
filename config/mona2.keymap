@@ -112,7 +112,7 @@
 &trans  &trans  &trans  &kp LG(UP_ARROW)    &trans                                        &kp RG(NUMBER_1)    &kp RG(NUMBER_2)     &kp RG(NUMBER_3)   &kp RG(NUMBER_4)  &kp RG(N5)
 &trans  &trans  &trans  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp RS(SLASH)  &kp RS(N8)          &kp RS(N9)           &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RA(ENTER)
 &trans  &trans  &trans  &trans              &trans               &trans    &kp RS(N1)     &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans             &trans            &trans
-&trans  &trans  &trans  &trans              &trans               &trans    &trans         &trans                                                                        &kp F2
+&trans  &trans  &trans  &trans              &trans               &trans    &trans         &pass                                                                         &kp F2
             >;
 
             sensor-bindings = <&scroll_right_left>;
