@@ -28,6 +28,11 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
+
+        lay3 {
+            bindings = <&to 3>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
