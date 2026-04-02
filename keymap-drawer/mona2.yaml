@@ -113,7 +113,7 @@ layers:
   - A
   - A
   - A
-  - A
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+N
   - DOWN ARROW
