@@ -16,7 +16,7 @@ layers:
   - {t: D, h: ''''}
   - {t: F, h: '['}
   - G
-  - {t: ▽, type: trans}
+  - /
   - H
   - J
   - K
