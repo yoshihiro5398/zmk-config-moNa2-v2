@@ -115,7 +115,7 @@ layers:
   - A
   - A
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+N
   - DOWN ARROW
   - '&mkp MB2'
   - {t: ▽, type: trans}
