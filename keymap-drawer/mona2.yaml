@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: '&to_layer_0 BACKSPACE', h: '1'}
   - {t: ENTER, h: '2'}
-  - LEFT ALT
+  - {t: AltGr+TAB, h: Gui+TAB}
   '1':
   - '1'
   - '2'
