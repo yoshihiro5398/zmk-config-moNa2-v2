@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&pass'
+  - {t: ▽, type: trans}
   - F2
   '2':
   - Ctl+1
