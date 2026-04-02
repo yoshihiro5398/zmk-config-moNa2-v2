@@ -101,7 +101,7 @@ layers:
   - A
   - A
   - A
-  - {t: ▽, type: trans}
+  - A
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
