@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&new_macro_pass'
+  - '&pass'
   - F2
   '2':
   - Ctl+1
