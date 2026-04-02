@@ -64,7 +64,7 @@ layers:
   - Sft+9
   - ']'
   - \
-  - {t: ▽, type: trans}
+  - AltGr+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F2
   '2':
   - '!'
   - '@'
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F4
   '3':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,7 +171,7 @@ layers:
   - {type: held}
   - BACKSPACE
   - ENTER
-  - F2
+  - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -310,3 +310,5 @@ combos:
   k: AltGr+F4
 - p: [19, 20]
   k: Ctl+W
+- p: [39, 40]
+  k: {t: '4', h: toggle}
