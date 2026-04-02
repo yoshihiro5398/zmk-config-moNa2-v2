@@ -44,11 +44,11 @@ layers:
   - {t: ENTER, h: '2'}
   - {t: AltGr+TAB, h: Gui+TAB}
   '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+UP ARROW
+  - {t: ▽, type: trans}
   - Gui+1
   - Gui+2
   - Gui+3
@@ -56,9 +56,9 @@ layers:
   - Gui+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
   - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+RIGHT ARROW
   - Sft+/
   - Sft+8
   - Sft+9
@@ -87,20 +87,20 @@ layers:
   - {t: ▽, type: trans}
   - F2
   '2':
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - Ctl+1
+  - Ctl+2
+  - Ctl+3
+  - Ctl+4
+  - Ctl+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
   - Sft+Ctl+TAB
   - Ctl+TAB
-  - '`'
-  - '~'
-  - '"'
-  - ''''
+  - A
+  - A
+  - A
+  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -108,12 +108,12 @@ layers:
   - RIGHT ARROW
   - END
   - Sft+ENTER
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F11
+  - A
+  - A
+  - A
+  - A
+  - A
+  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DOWN ARROW
