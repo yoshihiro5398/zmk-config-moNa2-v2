@@ -31,9 +31,9 @@ layers:
   - DEL
   - N
   - M
+  - '&mkp MB1'
   - ','
   - .
-  - /
   - {t: LEFT WIN, h: LCTRL}
   - LEFT ALT
   - {t: ▽, type: trans}
