@@ -114,7 +114,7 @@
         layer_2 {
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)                    &trans    &trans          &kp UP_ARROW     &kp RS(RC(TAB))  &kp RC(TAB)
-&kp A             &kp A             &kp A             &kp A             &trans                &trans  &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp END          &kp RS(ENTER)
+&kp A             &kp A             &kp A             &kp A             &kp A                 &trans  &kp HOME  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp END          &kp RS(ENTER)
 &kp A             &kp A             &kp A             &kp A             &kp A       &kp A     &trans  &trans    &kp DOWN_ARROW  &mkp MB2         &trans           &trans
 &trans            &trans            &trans            &trans            &trans      &trans    &trans  &trans                                                      &kp F4
             >;
