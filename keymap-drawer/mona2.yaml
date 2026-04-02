@@ -304,3 +304,5 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
+- p: [31, 32]
+  k: {t: '3', h: toggle}
