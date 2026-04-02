@@ -163,8 +163,8 @@ layers:
   - '3'
   - ','
   - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+5
+  - Sft+3
   - {t: ▽, type: trans}
   - ','
   - .
