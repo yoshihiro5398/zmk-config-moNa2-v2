@@ -26,7 +26,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <38 26>;
         };
 
         lay3 {
@@ -51,7 +51,17 @@
 
         colon {
             bindings = <&kp APOS>;
-            key-positions = <15 27>;
+            key-positions = <27 39>;
+        };
+
+        atmark {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <39 15>;
+        };
+
+        ctrlt {
+            bindings = <&kp RC(T)>;
+            key-positions = <8 7>;
         };
     };
 
@@ -110,10 +120,10 @@
 
         default_layer {
             bindings = <
-&mt Q ESC           &kp W         &kp E                         &kp R                   &kp T                                                          &kp Y        &kp U  &kp I     &kp O      &kp P
-&kp A               &kp S         &kp D                         &kp F                   &kp G                                  &mt LEFT_BRACKET SLASH  &kp H        &kp J  &kp K     &kp L      &lt 3 MINUS
-&kp Z               &kp X         &kp C                         &kp V                   &kp B        &kp DEL                   &kp DEL                 &kp N        &kp M  &mkp MB1  &kp COMMA  &mt RIGHT_SHIFT PERIOD
-&mt LCTRL LEFT_WIN  &kp LEFT_ALT  &mt LC(LEFT_SHIFT) LS(LG(S))  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1    &lt 1 BACKSPACE         &lt 2 ENTER                              &mt RG(TAB) RA(TAB)
+&mt Q ESC           &kp W         &kp E                         &kp R                   &kp T                                                   &kp Y        &kp U  &kp I     &kp O      &kp P
+&kp A               &kp S         &kp D                         &kp F                   &kp G                                  &kp SLASH        &kp H        &kp J  &kp K     &kp L      &lt 3 MINUS
+&kp Z               &kp X         &kp C                         &kp V                   &kp B        &kp DEL                   &kp DEL          &kp N        &kp M  &mkp MB1  &kp COMMA  &mt RIGHT_SHIFT PERIOD
+&mt LCTRL LEFT_WIN  &kp LEFT_ALT  &mt LC(LEFT_SHIFT) LS(LG(S))  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &lt_to_layer_0 3 LANG1    &lt 1 BACKSPACE  &lt 2 ENTER                              &mt RG(TAB) RA(TAB)
             >;
 
             sensor-bindings = <&scroll_up_down>;
