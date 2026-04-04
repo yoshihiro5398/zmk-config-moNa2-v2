@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - DEL
+  - {t: DELETE, h: RSHFT}
   - DEL
   - N
   - M
