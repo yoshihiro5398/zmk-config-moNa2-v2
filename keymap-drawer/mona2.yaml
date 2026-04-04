@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - {t: /, h: '['}
+  - /
   - H
   - J
   - K
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [11, 12]
+- p: [38, 26]
   k: TAB
 - p: [31, 32]
   k: {t: '3', h: toggle}
@@ -312,5 +312,9 @@ combos:
   k: Ctl+W
 - p: [39, 40]
   k: {t: '4', h: toggle}
-- p: [15, 27]
+- p: [27, 39]
   k: ''''
+- p: [39, 15]
+  k: '['
+- p: [8, 7]
+  k: Ctl+T
