@@ -112,7 +112,7 @@ layers:
   - A
   - Alt+Ctl+C
   - Alt+Ctl+V
-  - A
+  - '&docu'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+N
