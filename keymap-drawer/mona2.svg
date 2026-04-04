@@ -179,12 +179,10 @@ path.combo {
 <g transform="translate(140, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">D</text>
-<text x="0" y="24" class="key hold">&#x27;</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
-<text x="0" y="24" class="key hold">[</text>
 </g>
 <g transform="translate(252, 84)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -193,6 +191,7 @@ path.combo {
 <g transform="translate(420, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">/</text>
+<text x="0" y="24" class="key hold">[</text>
 </g>
 <g transform="translate(476, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -353,6 +352,10 @@ path.combo {
 <a href="#x_x">
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
 </g>
 </g>
 </g>
@@ -563,6 +566,10 @@ path.combo {
 <a href="#x_x">
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
 </g>
 </g>
 </g>
@@ -778,6 +785,10 @@ path.combo {
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-3">
@@ -992,6 +1003,10 @@ path.combo {
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1120)" class="layer-4">
@@ -1204,6 +1219,10 @@ path.combo {
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1400)" class="layer-5">
@@ -1415,6 +1434,10 @@ path.combo {
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1680)" class="layer-6">
@@ -1614,6 +1637,10 @@ path.combo {
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1960)" class="layer-7">
@@ -1812,6 +1839,10 @@ path.combo {
 <a href="#x_x">
 <text x="448" y="196" class="combo tap layer-activator">4</text>
 </a><text x="448" y="207" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="406" y="99" width="28" height="26" class="combo"/>
+<text x="420" y="112" class="combo tap">&#x27;</text>
 </g>
 </g>
 </g>
