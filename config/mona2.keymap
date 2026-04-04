@@ -126,8 +126,8 @@
         layer_2 {
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)                    &trans     &trans          &kp UP_ARROW     &kp RS(RC(TAB))  &kp RC(TAB)
-&kp A             &kp A             &kp A             &kp A             &kp A                 &trans  &kp HOME   &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp END          &kp RS(ENTER)
-&kp A             &kp A             &kp A             &kp A             &kp A       &trans    &trans  &kp RC(N)  &kp DOWN_ARROW  &mkp MB2         &trans           &kp RIGHT_SHIFT
+&kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)            &trans  &kp HOME   &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp END          &kp RS(ENTER)
+&kp A             &kp A             &kp LA(LC(C))     &kp LA(LC(V))     &kp A       &trans    &trans  &kp RC(N)  &kp DOWN_ARROW  &mkp MB2         &trans           &kp RIGHT_SHIFT
 &trans            &trans            &trans            &trans            &trans      &trans    &trans  &trans                                                       &kp F4
             >;
 
@@ -136,10 +136,10 @@
 
         layer_3 {
             bindings = <
-&trans      &trans      &trans  &kp MINUS  &kp LS(SEMI)                            &kp N7        &kp N8        &kp N9        &kp N0          &to 0
-&trans      &trans      &trans  &kp SLASH  &kp LS(APOS)             &kp RS(MINUS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_ARROW  &kp RIGHT_ARROW
-&trans      &trans      &trans  &trans     &trans        &kp DEL    &kp RS(INT1)   &kp N1        &kp NUMBER_2  &kp N3        &kp COMMA       &kp PERIOD
-&kp LS(N5)  &kp LS(N3)  &trans  &trans     &trans        &trans     &kp BACKSPACE  &kp ENTER                                                 &trans
+&trans      &trans      &trans  &kp MINUS  &kp LS(SEMI)                            &kp N7        &kp N8        &kp N9        &kp N0  &to 0
+&trans      &trans      &trans  &kp SLASH  &kp LS(APOS)             &kp RS(MINUS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans      &trans      &trans  &trans     &trans        &kp DEL    &kp RS(INT1)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &none
+&kp LS(N5)  &kp LS(N3)  &trans  &trans     &trans        &trans     &kp COMMA      &kp PERIOD                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
