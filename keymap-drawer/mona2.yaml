@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&pass2'
   - ''
   - F4
   '3':
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - ''
-  - '&pass'
+  - '&pass1'
   - F2
   '4':
   - {t: ▽, type: trans}
