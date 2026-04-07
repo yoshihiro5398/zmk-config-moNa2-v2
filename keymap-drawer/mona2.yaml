@@ -107,7 +107,7 @@ layers:
   - LEFT ARROW
   - RIGHT ARROW
   - END
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - Alt+6
   - Alt+7
   - Alt+Ctl+C
@@ -119,7 +119,7 @@ layers:
   - DOWN ARROW
   - '&mkp MB2'
   - AltGr+RIGHT ARROW
-  - RIGHT SHIFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
