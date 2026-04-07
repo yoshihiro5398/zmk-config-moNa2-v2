@@ -153,10 +153,10 @@
 
         layer_3 {
             bindings = <
-&trans      &trans      &trans  &kp MINUS  &kp LS(SEMI)                            &kp N7        &kp N8        &kp N9        &kp N0  &to 0
-&trans      &trans      &trans  &kp SLASH  &kp LS(APOS)             &kp RS(MINUS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &none
-&trans      &trans      &trans  &trans     &trans        &kp DEL    &kp RS(INT1)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&kp LS(N5)  &kp LS(N3)  &trans  &trans     &trans        &none      &kp COMMA      &kp PERIOD                                        &trans
+&trans      &trans      &trans  &kp MINUS  &kp LS(SEMI)                            &kp N7        &kp N8        &kp N9        &kp N0     &to 0
+&trans      &trans      &trans  &kp SLASH  &kp LS(APOS)             &kp RS(MINUS)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &trans
+&trans      &trans      &trans  &trans     &trans        &kp DEL    &kp RS(INT1)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp PERIOD
+&kp LS(N5)  &kp LS(N3)  &trans  &trans     &trans        &none      &none          &trans                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
