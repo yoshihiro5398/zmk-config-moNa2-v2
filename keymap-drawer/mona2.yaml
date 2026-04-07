@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: '1'}
+  - {t: '-', h: RIGHT SHIFT}
   - Z
   - X
   - C
@@ -33,7 +33,7 @@ layers:
   - M
   - '&mkp MB1'
   - ','
-  - {t: ., h: RIGHT SHIFT}
+  - {t: ., h: '1'}
   - {t: LEFT WIN, h: LCTRL}
   - LEFT ALT
   - {t: Sft+Gui+S, h: Ctl+LEFT SHIFT}
@@ -64,7 +64,7 @@ layers:
   - Sft+9
   - ']'
   - \
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
