@@ -161,16 +161,16 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - .
   - Sft+5
   - Sft+3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ','
-  - .
+  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
