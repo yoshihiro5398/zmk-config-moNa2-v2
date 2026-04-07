@@ -134,7 +134,7 @@
 &trans  &trans  &trans     &kp LG(UP_ARROW)    &trans                                        &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)   &kp RG(NUMBER_4)  &kp RG(N5)
 &trans  &trans  &kp LG(D)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &kp RS(SLASH)  &kp RS(N8)        &kp RS(N9)        &kp RIGHT_BRACKET  &kp BACKSLASH     &trans
 &trans  &trans  &trans     &trans              &trans               &trans    &kp RS(N1)     &trans            &trans            &trans             &trans            &trans
-&trans  &trans  &trans     &trans              &trans               &trans    &trans         &pass                                                                    &trans
+&trans  &trans  &trans     &trans              &trans               &trans    &trans         &trans                                                                   &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -142,10 +142,10 @@
 
         layer_2 {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)                           &trans              &trans          &kp UP_ARROW     &kp RS(RC(TAB))      &kp RC(TAB)
+&kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)                           &kp RC(N)           &trans          &kp UP_ARROW     &kp RS(RC(TAB))      &kp RC(TAB)
 &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)            &kp RA(ENTER)  &kp HOME            &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp END              &trans
 &kp LA(NUMBER_6)  &kp LA(N7)        &kp LA(LC(C))     &kp LA(LC(V))     &docu       &trans    &kp RS(ENTER)  &kp RA(LEFT_ARROW)  &kp DOWN_ARROW  &mkp MB2         &kp RA(RIGHT_ARROW)  &kp RIGHT_SHIFT
-&trans            &trans            &trans            &trans            &trans      &trans    &trans         &trans                                                                    &kp F4
+&trans            &trans            &trans            &trans            &trans      &trans    &trans         &none                                                                     &kp F4
             >;
 
             sensor-bindings = <&scroll_up_down>;
