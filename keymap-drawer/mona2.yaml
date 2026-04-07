@@ -166,8 +166,8 @@ layers:
   - Sft+5
   - Sft+3
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mail2'
+  - '&mail1'
   - {type: held}
   - ''
   - '&pass1'
