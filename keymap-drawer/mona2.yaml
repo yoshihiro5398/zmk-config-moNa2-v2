@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&pass'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - Ctl+1
@@ -92,7 +92,7 @@ layers:
   - Ctl+3
   - Ctl+4
   - Ctl+5
-  - {t: ▽, type: trans}
+  - Ctl+N
   - {t: ▽, type: trans}
   - UP ARROW
   - Sft+Ctl+TAB
@@ -127,7 +127,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - F4
   '3':
   - {t: ▽, type: trans}
