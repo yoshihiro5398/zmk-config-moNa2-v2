@@ -138,9 +138,9 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans     &kp LG(UP_ARROW)    &trans                                           &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)   &kp RG(NUMBER_4)  &kp RG(N5)
-&trans  &trans  &kp LG(D)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &trans            &trans            &trans            &trans             &trans            &trans
-&trans  &trans  &trans     &trans              &trans               &trans    &trans            &kp RS(N8)        &kp RS(N9)        &kp RIGHT_BRACKET  &kp BACKSLASH     &none
+&trans  &trans  &trans     &kp LG(UP_ARROW)    &trans                                           &trans            &trans            &trans             &trans            &trans
+&trans  &trans  &kp LG(D)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)            &trans            &kp RS(N8)        &kp RS(N9)        &kp RIGHT_BRACKET  &kp BACKSLASH     &trans
+&trans  &trans  &trans     &trans              &trans               &trans    &trans            &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)   &kp RG(NUMBER_4)  &none
 &trans  &trans  &trans     &trans              &trans               &trans    &kp LS(NUMBER_1)  &kp RS(SLASH)                                                            &trans
             >;
 
