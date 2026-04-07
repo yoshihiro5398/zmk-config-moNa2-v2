@@ -93,6 +93,20 @@
             bindings = <&kp Y &kp S &kp H &kp R &kp NUMBER_3 &kp NUMBER_1 &kp N8 &kp NUMBER_4 &kp LEFT_BRACKET>;
             label = "NEW_MACRO_3";
         };
+
+        mail1: new_macro_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp H &kp MINUS &kp N &kp A &kp K &kp A &kp M &kp U &kp R &kp A>;
+            label = "NEW_MACRO_4";
+        };
+
+        mail2: new_macro_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp C &kp T &kp I &kp E &kp PERIOD &kp C &kp O &kp PERIOD &kp J &kp P>;
+            label = "NEW_MACRO_5";
+        };
     };
 
     behaviors {
@@ -163,7 +177,7 @@
 &trans      &trans        &trans     &trans        &trans                                  &kp N7        &kp N8        &kp N9        &trans     &to 0
 &trans      &trans        &trans     &trans        &trans                    &kp RS(INT1)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &kp RS(MINUS)
 &kp SLASH   &kp LS(APOS)  &kp MINUS  &kp LS(SEMI)  &kp LS(MINUS)  &kp DEL    &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp PERIOD
-&kp LS(N5)  &kp LS(N3)    &trans     &trans        &trans         &none      &none         &pass1                                               &kp F2
+&kp LS(N5)  &kp LS(N3)    &trans     &mail2        &mail1         &none      &none         &pass1                                               &kp F2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
