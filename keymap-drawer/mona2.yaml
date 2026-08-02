@@ -37,9 +37,9 @@ layers:
   - {t: LEFT WIN, h: LCTRL}
   - LEFT ALT
   - {t: Sft+Gui+S, h: Ctl+LEFT SHIFT}
-  - {t: '&to_layer_0 LANG2', h: '1'}
+  - {t: '&to_layer_0 LANG2', h: '3'}
   - {t: SPACE, h: '2'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
+  - {t: '&to_layer_0 LANG1', h: '1'}
   - {t: BACKSPACE, h: '1'}
   - {t: ENTER, h: '2'}
   - {t: AltGr+TAB, h: '3'}
@@ -80,9 +80,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Sft+1
   - Sft+/
   - {t: ▽, type: trans}
