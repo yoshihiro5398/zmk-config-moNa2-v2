@@ -49,43 +49,43 @@ layers:
   - {t: ▽, type: trans}
   - Gui+UP ARROW
   - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+D
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
+  - Sft+INTERNATIONAL 1
+  - '4'
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
-  - Sft+8
-  - Sft+9
-  - ']'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+1
-  - Gui+2
-  - Gui+3
-  - Gui+4
-  - ''
+  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - ','
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - Sft+1
-  - Sft+/
-  - {t: ▽, type: trans}
+  - ''
+  - '&pass1'
+  - F2
   '2':
   - Ctl+1
   - Ctl+2
