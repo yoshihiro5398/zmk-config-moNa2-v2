@@ -155,7 +155,7 @@
 &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5                                             &kp N7        &kp N8        &kp N9        &trans     &to 0
 &kp NUMBER_6  &kp N7            &kp N8        &kp N9        &kp N0                    &kp RS(INTERNATIONAL_1)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans     &kp RS(MINUS)
 &kp SLASH     &kp LS(APOS)      &kp MINUS     &kp RS(SEMI)  &kp LS(MINUS)  &kp DEL    &kp N0                   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA  &kp PERIOD
-&kp LS(N5)    &kp LS(NUMBER_3)  &trans        &mail2        &mail1         &none      &none                    &pass1                                               &kp F2
+&kp LS(N5)    &kp LS(NUMBER_3)  &trans        &mail2        &mail1         &none      &kp BACKSPACE            &pass1                                               &kp F2
             >;
 
             sensor-bindings = <&scroll_right_left>;
