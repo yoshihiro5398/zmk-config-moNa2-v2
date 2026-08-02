@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANG1', h: '3'}
   - {t: BACKSPACE, h: '3'}
   - {t: ENTER, h: '2'}
-  - AltGr+TAB
+  - {t: AltGr+TAB, h: '1'}
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
