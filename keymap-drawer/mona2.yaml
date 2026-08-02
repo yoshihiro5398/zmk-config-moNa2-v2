@@ -150,28 +150,28 @@ layers:
   - Sft+9
   - ']'
   - \
-  - {t: Sft+-, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - ','
-  - .
+  - {t: ▽, type: trans}
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - '&pass1'
-  - F2
+  - {t: ▽, type: trans}
+  - Sft+1
+  - Sft+/
+  - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
