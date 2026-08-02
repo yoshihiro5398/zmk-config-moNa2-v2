@@ -83,7 +83,7 @@ layers:
   - '&mail2'
   - '&mail1'
   - {type: held}
-  - ''
+  - BACKSPACE
   - '&pass1'
   - F2
   '2':
